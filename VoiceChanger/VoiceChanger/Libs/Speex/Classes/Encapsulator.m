@@ -119,9 +119,6 @@ void writeString(unsigned char *dest, int offset, unsigned char *value, int leng
 
             }
         }
-        if (!moreDataInputing) {
-            NSLog(@"123");
-        }
     }
 }
 
