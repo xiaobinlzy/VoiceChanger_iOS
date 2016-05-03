@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E78348F1CD9057F008C9610 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E78348E1CD9057F008C9610 /* Launch Screen.storyboard */; };
+		4EA694D8191868A300375A56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EA694D7191868A300375A56 /* Foundation.framework */; };
+		4EA694DC191868A300375A56 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EA694DB191868A300375A56 /* UIKit.framework */; };
+		4EA694E2191868A300375A56 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4EA694E0191868A300375A56 /* InfoPlist.strings */; };
+		4EA694E4191868A300375A56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA694E3191868A300375A56 /* main.m */; };
+		4EA694E8191868A300375A56 /* VoiceChangerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA694E7191868A300375A56 /* VoiceChangerAppDelegate.m */; };
+		4EA694EA191868A300375A56 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EA694E9191868A300375A56 /* Images.xcassets */; };
+		4EA696CC1918795600375A56 /* libVoiceChanger.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EA695E919186D3A00375A56 /* libVoiceChanger.a */; };
+		4EA696CD1918796000375A56 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EA694D9191868A300375A56 /* CoreGraphics.framework */; };
+		4EA696D319187AB000375A56 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EA696D219187AB000375A56 /* CoreAudio.framework */; };
+		4EA696D519187AB800375A56 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EA696D419187AB800375A56 /* AudioToolbox.framework */; };
+		4EA696D919187C0C00375A56 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EA696D819187C0C00375A56 /* AVFoundation.framework */; };
+		4EA696DD1918826100375A56 /* DemoViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4EA696DB1918826100375A56 /* DemoViewController.mm */; };
+		4EA696DE1918826100375A56 /* DemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EA696DC1918826100375A56 /* DemoViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4EA695E819186D3A00375A56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EA695E319186D3900375A56 /* VoiceChanger.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4EA695BA19186D3900375A56;
+			remoteInfo = VoiceChanger;
+		};
+		4EA695EC19186D5500375A56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4EA695E319186D3900375A56 /* VoiceChanger.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 4EA695B919186D3900375A56;
+			remoteInfo = VoiceChanger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E78348E1CD9057F008C9610 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		4EA694D4191868A300375A56 /* VoiceChangerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoiceChangerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EA694D7191868A300375A56 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4EA694D9191868A300375A56 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4EA694DB191868A300375A56 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4EA694DF191868A300375A56 /* VoiceChangerDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VoiceChangerDemo-Info.plist"; sourceTree = "<group>"; };
+		4EA694E1191868A300375A56 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4EA694E3191868A300375A56 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4EA694E5191868A300375A56 /* VoiceChangerDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VoiceChangerDemo-Prefix.pch"; sourceTree = "<group>"; };
+		4EA694E6191868A300375A56 /* VoiceChangerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VoiceChangerAppDelegate.h; sourceTree = "<group>"; };
+		4EA694E7191868A300375A56 /* VoiceChangerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoiceChangerAppDelegate.m; sourceTree = "<group>"; };
+		4EA694E9191868A300375A56 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4EA695E319186D3900375A56 /* VoiceChanger.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = VoiceChanger.xcodeproj; path = VoiceChanger/VoiceChanger.xcodeproj; sourceTree = "<group>"; };
+		4EA696D219187AB000375A56 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		4EA696D419187AB800375A56 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		4EA696D819187C0C00375A56 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4EA696DA1918826100375A56 /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
+		4EA696DB1918826100375A56 /* DemoViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DemoViewController.mm; sourceTree = "<group>"; };
+		4EA696DC1918826100375A56 /* DemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EA694D1191868A300375A56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EA696D919187C0C00375A56 /* AVFoundation.framework in Frameworks */,
+				4EA696D519187AB800375A56 /* AudioToolbox.framework in Frameworks */,
+				4EA696D319187AB000375A56 /* CoreAudio.framework in Frameworks */,
+				4EA696CD1918796000375A56 /* CoreGraphics.framework in Frameworks */,
+				4EA696CC1918795600375A56 /* libVoiceChanger.a in Frameworks */,
+				4EA694DC191868A300375A56 /* UIKit.framework in Frameworks */,
+				4EA694D8191868A300375A56 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EA694CB191868A300375A56 = {
+			isa = PBXGroup;
+			children = (
+				4EA695E319186D3900375A56 /* VoiceChanger.xcodeproj */,
+				4EA694DD191868A300375A56 /* VoiceChangerDemo */,
+				4EA694D6191868A300375A56 /* Frameworks */,
+				4EA694D5191868A300375A56 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4EA694D5191868A300375A56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EA694D4191868A300375A56 /* VoiceChangerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EA694D6191868A300375A56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4EA696D819187C0C00375A56 /* AVFoundation.framework */,
+				4EA696D419187AB800375A56 /* AudioToolbox.framework */,
+				4EA696D219187AB000375A56 /* CoreAudio.framework */,
+				4EA694D7191868A300375A56 /* Foundation.framework */,
+				4EA694D9191868A300375A56 /* CoreGraphics.framework */,
+				4EA694DB191868A300375A56 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4EA694DD191868A300375A56 /* VoiceChangerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				4EA694E6191868A300375A56 /* VoiceChangerAppDelegate.h */,
+				4EA694E7191868A300375A56 /* VoiceChangerAppDelegate.m */,
+				4EA696DA1918826100375A56 /* DemoViewController.h */,
+				4EA696DB1918826100375A56 /* DemoViewController.mm */,
+				4EA696DC1918826100375A56 /* DemoViewController.xib */,
+				4EA694E9191868A300375A56 /* Images.xcassets */,
+				4E78348E1CD9057F008C9610 /* Launch Screen.storyboard */,
+				4EA694DE191868A300375A56 /* Supporting Files */,
+			);
+			path = VoiceChangerDemo;
+			sourceTree = "<group>";
+		};
+		4EA694DE191868A300375A56 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4EA694DF191868A300375A56 /* VoiceChangerDemo-Info.plist */,
+				4EA694E0191868A300375A56 /* InfoPlist.strings */,
+				4EA694E3191868A300375A56 /* main.m */,
+				4EA694E5191868A300375A56 /* VoiceChangerDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4EA695E419186D3900375A56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EA695E919186D3A00375A56 /* libVoiceChanger.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4EA694D3191868A300375A56 /* VoiceChangerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EA69500191868A400375A56 /* Build configuration list for PBXNativeTarget "VoiceChangerDemo" */;
+			buildPhases = (
+				4EA694D0191868A300375A56 /* Sources */,
+				4EA694D1191868A300375A56 /* Frameworks */,
+				4EA694D2191868A300375A56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4EA695ED19186D5500375A56 /* PBXTargetDependency */,
+			);
+			name = VoiceChangerDemo;
+			productName = VoiceChangerDemo;
+			productReference = 4EA694D4191868A300375A56 /* VoiceChangerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EA694CC191868A300375A56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VoiceChanger;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = DLL;
+			};
+			buildConfigurationList = 4EA694CF191868A300375A56 /* Build configuration list for PBXProject "VoiceChangerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4EA694CB191868A300375A56;
+			productRefGroup = 4EA694D5191868A300375A56 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 4EA695E419186D3900375A56 /* Products */;
+					ProjectRef = 4EA695E319186D3900375A56 /* VoiceChanger.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				4EA694D3191868A300375A56 /* VoiceChangerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		4EA695E919186D3A00375A56 /* libVoiceChanger.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libVoiceChanger.a;
+			remoteRef = 4EA695E819186D3A00375A56 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EA694D2191868A300375A56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EA694E2191868A300375A56 /* InfoPlist.strings in Resources */,
+				4EA696DE1918826100375A56 /* DemoViewController.xib in Resources */,
+				4E78348F1CD9057F008C9610 /* Launch Screen.storyboard in Resources */,
+				4EA694EA191868A300375A56 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EA694D0191868A300375A56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EA696DD1918826100375A56 /* DemoViewController.mm in Sources */,
+				4EA694E8191868A300375A56 /* VoiceChangerAppDelegate.m in Sources */,
+				4EA694E4191868A300375A56 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4EA695ED19186D5500375A56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VoiceChanger;
+			targetProxy = 4EA695EC19186D5500375A56 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4EA694E0191868A300375A56 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EA694E1191868A300375A56 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4EA694FE191868A400375A56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4EA694FF191868A400375A56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4EA69501191868A400375A56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VoiceChangerDemo/VoiceChangerDemo-Prefix.pch";
+				GCC_WARN_UNDECLARED_SELECTOR = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/VoiceChanger/**",
+					"$(SRCROOT)/VoiceChanger/VoiceChanger",
+				);
+				INFOPLIST_FILE = "VoiceChangerDemo/VoiceChangerDemo-Info.plist";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dll.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/VoiceChanger/**";
+				VALID_ARCHS = "arm64 armv7 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4EA69502191868A400375A56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VoiceChangerDemo/VoiceChangerDemo-Prefix.pch";
+				GCC_WARN_UNDECLARED_SELECTOR = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/VoiceChanger/**",
+					"$(SRCROOT)/VoiceChanger/VoiceChanger",
+				);
+				INFOPLIST_FILE = "VoiceChangerDemo/VoiceChangerDemo-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dll.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/VoiceChanger/**";
+				VALID_ARCHS = "arm64 armv7 armv7s";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EA694CF191868A300375A56 /* Build configuration list for PBXProject "VoiceChangerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EA694FE191868A400375A56 /* Debug */,
+				4EA694FF191868A400375A56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EA69500191868A400375A56 /* Build configuration list for PBXNativeTarget "VoiceChangerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EA69501191868A400375A56 /* Debug */,
+				4EA69502191868A400375A56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EA694CC191868A300375A56 /* Project object */;
+}
